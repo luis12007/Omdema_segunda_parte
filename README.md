@@ -16,7 +16,7 @@ El notebook incluye los siguientes puntos destacados:
 Para ejecutar este proyecto, necesitas:
 
 - Python 3.x
-- Librerías instaladas: `pandas`, `matplotlib`, `seaborn`, entre otras mencionadas en el notebook.
+- Librerías instaladas: `pandas`, `matplotlib`, `seaborn`, `lightgbm`, `scikit-learn`, entre otras mencionadas en el notebook.
 - Acceso a Google Colab (opcional, pero recomendado para aprovechar el entorno configurado).
 
 ## Instrucciones de Uso
@@ -32,3 +32,15 @@ Para ejecutar este proyecto, necesitas:
    git clone <URL_DEL_REPOSITORIO>
    cd <NOMBRE_DEL_REPOSITORIO>
    pip install -r requirements.txt
+   ```
+
+4. Si no tienes un archivo `requirements.txt`, puedes crear uno o instalar las dependencias manualmente con los siguientes comandos:
+
+   ```bash
+   pip install pandas
+   pip install matplotlib
+   pip install seaborn
+   pip install plotly
+   pip install scikit-learn
+   pip install lightgbm
+   ```
